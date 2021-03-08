@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+#heading{
+    background-color: #ff85f9;
+    padding: 20px 90px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: #230e2c;
+    border: 1px #000000;
+    border-style:double;
+    border: solid;
+}
+
+h1::before{
+    content:url('telephone.ico');
+    content: attr(100px);
+    
+}
+
+dl{
+    padding: 0px;
+    border: 1px #000000;
+    border-style:double;
+    border: solid;
+    border-radius: 10px;
+    margin: 50px 90px 0px 90px;
+}
+
+dt {
+    border-bottom: 10px #000000;
+    border-top: 5px #000000;
+    border-bottom: solid;
+    border-top: solid;
+    color: #000000;
+    background: #5257fd;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    padding: 10px 0 10px 30px;
+    position: sticky;
+    top: 0px;
+}
+
+dt:hover{
+
+    font-size: 40px;
+    border-radius: 10px;
+}
+dd {
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 20px 15px 20px;
+    padding: 10px 0 10px 40px;
+    border-bottom: 1px solid #000000;
+}
+
+dd>a {
+    font-style: italic;
+}
+
+dd:hover{
+    background-color: #ff67f7;
+    border-radius: 10px;
+    padding: 10px 0px 10px 40px;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    right: 150px;
+}
+
+
+a::before{
+    content: "\1F4DE";
+}
